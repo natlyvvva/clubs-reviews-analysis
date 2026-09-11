@@ -1,0 +1,11 @@
+# ключи API
+.env
+
+# окружение и кэш
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# системные и временные файлы
+.DS_Store
+~$*
