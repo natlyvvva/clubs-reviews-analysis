@@ -64,4 +64,9 @@ jupyter notebook clubs_project.ipynb
 - Для редких тем (музыка, безопасность) качество классификатора оценено на единичных примерах.
 
 ## Стек
-Python, pandas, numpy, matplotlib, seaborn, statsmodels, scikit-learn, OpenAI SDK (Gemini 2.5 Flash через ProxyAPI), SerpApi
+- **Сбор данных:** Python, requests, SerpApi (Google Maps Reviews API)
+- **Обработка и статистика:** pandas, numpy, statsmodels (OLS, интервалы Уилсона)
+- **Визуализация:** matplotlib, seaborn
+- **LLM-классификация:** OpenAI SDK, Gemini 2.5 Flash через ProxyAPI, python-dotenv
+- **Оценка качества модели:** scikit-learn (precision, recall, F1)
+- **Среда:** Jupyter Notebook
