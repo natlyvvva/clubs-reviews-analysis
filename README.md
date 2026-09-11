@@ -28,7 +28,6 @@
 ```
 clubs-reviews-analysis/
 ├── clubs_project.ipynb        # основной ноутбук: EDA, LLM-разметка, анализ
-├── requirements.txt
 ├── .env.example               # шаблон для API-ключей
 ├── src/
 │   ├── club_reviews_api.py    # выгрузка отзывов через SerpApi
@@ -44,7 +43,6 @@ clubs-reviews-analysis/
 
 ## Как запустить
 ```bash
-pip install -r requirements.txt
 cp .env.example .env   # вписать ключи PROXYAPI_KEY и SERPAPI_API_KEY
 jupyter notebook clubs_project.ipynb
 ```
